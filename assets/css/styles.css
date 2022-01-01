@@ -7,9 +7,10 @@ html {
 /* header styling */
 header {
     font-size: 28px;
+    color: rgb(230, 224, 215);
     position:sticky;
     top: 0;
-    background-image: url();
+    background-image: url("../images/drums.jpeg");
 }
 
 h1 {
@@ -45,6 +46,7 @@ ul {
 
 li {
     margin: 50px;
+    font-size: 42px;
 }
 
 .photo-greeting {
@@ -61,7 +63,6 @@ li {
     background-color: steelblue;
 }
 
-
 #about, #my-work, #content, .article, #contact {
     display: flex;
     flex-direction: column;
@@ -75,6 +76,7 @@ li {
     margin-left: 15%;
     margin-right: 15%;    
 }
+
 .grid article {
     margin: 25px;
 }
